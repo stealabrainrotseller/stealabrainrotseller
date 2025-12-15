@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Brainrot Pets Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1>🧠 Brainrot Store</h1>
+  <ul>
+    <li>Home</li>
+    <li>Pets</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h2>Most Trusted Brainrot Seller</h2>
+  <p>Fast Delivery • Safe Trades • 100% Genuine</p>
+  <a href="#pets" class="btn">View Pets</a>
+</section>
+
+<!-- PETS SECTION -->
+<section id="pets" class="pets">
+  <h2>🔥 Available Pets</h2>
+
+  <div class="pet-card">
+    <h3>Legendary Brainrot</h3>
+    <p>₹199</p>
+    <button onclick="order('Legendary Brainrot')">Buy Now</button>
+  </div>
+
+  <div class="pet-card">
+    <h3>Rare Brainrot</h3>
+    <p>₹99</p>
+    <button onclick="order('Rare Brainrot')">Buy Now</button>
+  </div>
+</section>
+
+<!-- TRUST SECTION -->
+<section class="trust">
+  <h2>Why Trust Us?</h2>
+  <p>✔ Instant Delivery</p>
+  <p>✔ Verified Seller</p>
+  <p>✔ 100+ Happy Customers</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>📞 WhatsApp Orders: +91XXXXXXXXXX</p>
+  <p>© 2025 Brainrot Pets Store</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
