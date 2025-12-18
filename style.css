@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1120;
+  color: white;
+  text-align: center;
+}
+
+header, footer {
+  background: #020617;
+  padding: 20px;
+}
+
+.hero {
+  padding: 40px;
+}
+
+#shop {
+  padding: 30px;
+}
+
+#pet-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.pet-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.pet-card h3 {
+  margin: 10px 0;
+}
+
+.price {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background: #22c55e;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
